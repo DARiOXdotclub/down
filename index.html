@@ -1,16 +1,37 @@
+<!DOCTYPE html>
 <html>
 	<head>
-		<title>Uh Oh!</title>
-	<style>
+		<title>This Service is Unavailable</title>
+		<style>
+		
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body {
+	background-image: url('./background.png');
+}
 * {
-    font-family: 'Arial', sans-serif;
+	font-family: sans-serif;
+	color: white;
+}
+.title{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+.content{
 	text-align: center;
 }
-	</style>
+		
+		</style>
 	</head>
 	<body>
-		<h1>Uh Oh!</h1>
-		<h2>DARiOX Services are having some problems in the back!</h2>
-		<h3>The current service has been disabled temporarialy.<br>Check back in ~14 hours</h3>
+		<div class="title">
+			<h1>This DARiOX Service is Down!</h1>
+		</div>
+		<br>
+		<div class="content">
+			<h2>This DARiOX Service has had a catestrophic failure!!</h2>
+			<p>This service is currently <strong>not</strong> available, if you want to see the current status of this service please take a look at <a href="http://twitter.com/darioxdotclub">out twitter</a><br>
+			If you do not see anything new on <a href="http://twitter.com/darioxdotclub">our twitter</a> then please check back in a day or two.</p>
+			<a href="https://www.paypal.me/darioxservices" class="donate" >Donate to Fund our Servers</a>
+		</div>
 	</body>
-</head>
+</html>
